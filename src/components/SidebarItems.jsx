@@ -20,7 +20,7 @@ const SidebarItems = () => {
       <SidebarItem
         icon={<LayoutDashboard size={20} />}
         text='Dashboard'
-        to='/home'
+        to='/'
         alert
         active={checkActive('/home')}
       />

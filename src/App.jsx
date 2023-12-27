@@ -11,7 +11,7 @@ function App() {
         <div className='flex'>
           <SidebarItems />
           <Routes>
-            <Route path='/home' element={<HomePage />} />
+            <Route path='/' element={<HomePage />} />
             <Route path='/statistics' element={<HomePage />} />
             <Route path='/patient' element={<PatientPage />} />
             <Route path='/facture' element={<HomePage />} />
